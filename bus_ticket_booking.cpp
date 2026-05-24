@@ -161,6 +161,7 @@ void cancelTicket() {
 
     cout << "Enter Bus ID: ";
     cin >> B_id;
+    
 
     if (B_id < 0 || B_id >= busCount) {
         cout << "Invalid Bus ID!\n";
